@@ -56,7 +56,6 @@ export default function Header() {
       {/*bottom nav */}
       <div className="flex items-center bg-amazon_blue-light space-x-3 p-2 pl-6 text-sm text-white">
         <p className="link flex items-center">
-          {" "}
           <MenuIcon className="h-6 mr-1" />
           All
         </p>
