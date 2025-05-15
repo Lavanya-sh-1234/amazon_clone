@@ -2,6 +2,8 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { StarIcon } from "@heroicons/react/solid";
 import Currency from "react-currency-formatter";
+import { useDispatch } from "react-redux";
+import { addToBasket } from ".././slices/basketSlice";
 
 const MAX_RATING = 5;
 const MIN_RATING = 1;
@@ -14,7 +16,8 @@ export default function Product({
   category,
   image,
 }) {
-  
+  const dispatch = useDispatch();
+
   const [rating, setRating] = useState(0);
   const [hasPrime, setHasPrime] = useState(false);
 
@@ -24,6 +27,22 @@ export default function Product({
     );
     setHasPrime(Math.random() < 0.5);
   }, []);
+
+  const addItemToBasket = () => {
+    const product = {
+      id,
+      title,
+      price,
+      description,
+      category,
+      image,
+      rating,
+      hasPrime,
+    };
+
+    //Sending the product as an action to the REDUX store.. the baskey slice
+    dispatch(addToBasket(product));
+  };
 
   return (
     <div className="relative flex flex-col m-5 bg-white z-30 p-10">
@@ -53,6 +72,7 @@ export default function Product({
         <div className="flex items-center space-x-2 -mt-5 mb-1">
           <Image
             src="/amazon_prime_icon.png"
+            loading="lazy"
             alt="Prime"
             width={50}
             height={50}
@@ -62,7 +82,9 @@ export default function Product({
         </div>
       )}
 
-      <button className="mt-auto button">Add to Basket</button>
+      <button onClick={addItemToBasket} className="mt-auto button">
+        Add to Basket
+      </button>
     </div>
   );
 }
