@@ -47,7 +47,7 @@ export default function Checkout() {
         </div>
 
         {/* Right */}
-        <div>
+        <div className="flex flex-col bg-white shadow-md p-10">
           {items.length > 0 && (
             <>
               <h2 className="whitespace-nowrap">
@@ -58,6 +58,7 @@ export default function Checkout() {
               </h2>
 
               <button
+                disabled={!session}
                 className={`button mt-2 ${
                   !session &&
                   "from-gray-300 to-gray-500 border-gray-300 text-gray-300 cursor-not-allowed"
@@ -72,4 +73,3 @@ export default function Checkout() {
     </div>
   );
 }
-
