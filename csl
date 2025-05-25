@@ -1,0 +1,89 @@
+[33mcommit a5586a446029743cfaefd385188333df7903b259[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Lavanya Singh <lavanya.sh7@gmail.com>
+Date:   Mon May 19 13:33:07 2025 +0530
+
+    feat: add NEXTAUTH_SECRET env variable and build Checkout page
+
+[33mcommit 5b2ad31315f8aaf51b952bbf0ecfe8f5d13f960c[m
+Author: Lavanya Singh <lavanya.sh7@gmail.com>
+Date:   Sun May 18 23:56:03 2025 +0530
+
+    Add subtotal calculation using reduce in Redux store
+
+[33mcommit 2f82217a5109d9e4643cf20c8a0b2843c42732d1[m
+Author: Lavanya Singh <lavanya.sh7@gmail.com>
+Date:   Thu May 15 23:39:22 2025 +0530
+
+    feat: build Checkout and CheckoutProduct components with UI and functionality
+
+[33mcommit e4afd759d9e92911d914aaa68ce215ab17eef7fb[m
+Author: Lavanya Singh <lavanya.sh7@gmail.com>
+Date:   Thu May 15 00:19:05 2025 +0530
+
+    feat(auth): add Google Sign-In with NextAuth
+
+[33mcommit 1035cacf21f0b3323175fb86d69c4b6123a706ef[m
+Author: Lavanya Singh <lavanya.sh7@gmail.com>
+Date:   Wed May 14 10:32:38 2025 +0530
+
+    Resolve SSR hydration issue and add missing keys for StarIcon
+
+[33mcommit 75e16210f4501eb7eddce1fa66cd89a6812c96e6[m
+Author: Lavanya Singh <lavanya.sh7@gmail.com>
+Date:   Wed May 14 09:58:24 2025 +0530
+
+    feat: finish full product feed component
+
+[33mcommit 2f50a3a53f426577667a51d4253af03d609c857d[m
+Author: Lavanya Singh <lavanya.sh7@gmail.com>
+Date:   Tue May 13 23:39:01 2025 +0530
+
+    feat: add ProductFeed banner and complete header section
+
+[33mcommit 1c0249d8d65a0212fce8967366219974d879dac2[m
+Author: Lavanya Singh <lavanya.sh7@gmail.com>
+Date:   Mon May 12 22:56:29 2025 +0530
+
+    feat: add header top navbar
+
+[33mcommit 4a665b0f76e9b828bc5db97cbc01fbc23a40134a[m
+Author: Lavanya Singh <lavanya.sh7@gmail.com>
+Date:   Fri May 9 16:39:29 2025 +0530
+
+    setup for amazon-clone
+
+[33mcommit 3064f2a0e094344282f377bf9e5a398ff092e434[m
+Author: Sonny Sangha <sonny.sangha@gmail.com>
+Date:   Wed May 19 22:46:16 2021 +0100
+
+    updated config and dependancies
+
+[33mcommit 942b7412d0c4ecf2a27541885f2bfc5cb9742656[m
+Author: Sonny Sangha <sonny.sangha@gmail.com>
+Date:   Wed May 19 22:19:29 2021 +0100
+
+    Update README.md
+
+[33mcommit 34cd8bb7b08782fcd08360b2ec16b3b4508cd449[m
+Author: Jay <70920272+jay4399@users.noreply.github.com>
+Date:   Mon May 17 15:40:13 2021 +0400
+
+    Updated README.md
+
+[33mcommit 5d945ef146ae29f60451fe2d207c14dc9612600a[m
+Author: Jay <70920272+jay4399@users.noreply.github.com>
+Date:   Mon May 17 15:19:59 2021 +0400
+
+    Added Screenshot File
+
+[33mcommit 366511a89c487ba16bce23df0f02540340dc9e6c[m
+Author: Sonny Sangha <sonny.sangha@gmail.com>
+Date:   Mon May 17 11:34:45 2021 +0100
+
+    initial commit
+
+[33mcommit afcd6c5754746dc4658f128973a4ff193fae78ba[m
+Author: Sonny Sangha <sonny.sangha@gmail.com>
+Date:   Mon May 17 09:37:00 2021 +0100
+
+    Initial commit from Create Next App
