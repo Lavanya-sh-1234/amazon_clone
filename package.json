@@ -1,5 +1,5 @@
 {
-  "name": "with-redux-toolkit",
+  "name": "next-store",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
